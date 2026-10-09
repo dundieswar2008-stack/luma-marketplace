@@ -1,0 +1,2 @@
+- [x] Separate pages (creators, portfolio, briefs)
+- [x] Source code zip download
