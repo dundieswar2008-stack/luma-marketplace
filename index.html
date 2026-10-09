@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Muse is an AI creator marketplace for brands and agencies." />
+    <title>Muse — AI Creator Marketplace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <main id="app">
+      <section class="site-shell" id="home">
+        <nav class="nav-wrap" aria-label="Main navigation">
+          <a class="logo" href="#home" aria-label="Muse home">Muse<span class="logo-dot">.</span></a>
+          <div class="nav-links">
+            <a href="#how-it-works">How it works</a>
+            <a href="#creators">Explore creators</a>
+            <button class="text-button" data-open-modal="login">Log in</button>
+            <button class="nav-join" data-open-modal="signup">Join Muse <span>↗</span></button>
+          </div>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span></span> The AI creative network</p>
+            <h1>The people behind<br />the <em>prompt.</em></h1>
+            <p class="hero-description">Discover brilliant AI creators, find the right creative voice, and get your next idea moving — all in one place.</p>
+            <div class="hero-actions">
+              <button class="primary-button" data-open-modal="signup">Find your creator <span>→</span></button>
+              <button class="round-play" data-open-modal="video" aria-label="See how Muse works"><span>▶</span></button>
+              <span class="watch-label">See how it works</span>
+            </div>
+            <div class="trust-line">
+              <div class="faces" aria-hidden="true"><i class="face face-a"></i><i class="face face-b"></i><i class="face face-c"></i><i class="face face-d"></i></div>
+              <span>Loved by <b>4,000+</b> people making<br />the internet more interesting.</span>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured AI creator profile">
+            <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="orb orb-three"></div>
+            <div class="poster-card">
+              <div class="poster-corner">✳</div>
+              <div class="poster-sun"></div>
+              <div class="poster-path"></div>
+              <div class="poster-label">RUNWAY<br /><i>FORWARD</i></div>
+              <div class="poster-meta">A film by<br /><b>AMARA SILVA</b></div>
+              <div class="poster-number">2024</div>
+            </div>
+            <article class="creator-float">
+              <div class="avatar avatar-amara">AS</div>
+              <div><p>Featured creator</p><strong>Amara Silva</strong><small>AI filmmaker · São Paulo</small></div>
+              <button class="mini-arrow" aria-label="View Amara's profile" data-toast="Opening Amara's portfolio">↗</button>
+            </article>
+            <div class="curved-text">CREATIVITY HAS A NEW MEDIUM · CREATIVITY HAS A NEW MEDIUM ·</div>
+          </div>
+        </div>
+        <div class="marquee"><div><span>GENERATIVE ART</span><b>✦</b><span>AI FILM</span><b>✦</b><span>CREATIVE DIRECTION</span><b>✦</b><span>3D WORLDS</span><b>✦</b><span>GENERATIVE ART</span><b>✦</b><span>AI FILM</span><b>✦</b><span>CREATIVE DIRECTION</span><b>✦</b><span>3D WORLDS</span><b>✦</b></div></div>
+      </section>
+
+      <section class="intro-section" id="how-it-works">
+        <p class="section-kicker">A BETTER WAY TO MAKE</p>
+        <div class="intro-heading"><h2>Good work starts with<br /><em>the right people.</em></h2><p>Muse makes it simple to find original AI talent and turn a great brief into a finished project.</p></div>
+        <div class="steps-grid">
+          <article class="step-card"><div class="step-icon spark-icon">✦</div><p class="step-number">01</p><h3>Discover</h3><p>Browse portfolios made for the new creative frontier. Filter by style, skill or feeling.</p></article>
+          <article class="step-card accent-card"><div class="step-icon compass-icon">⌘</div><p class="step-number">02</p><h3>Get matched</h3><p>Tell us what you’re making. Our matching engine finds people who just get it.</p></article>
+          <article class="step-card"><div class="step-icon chat-icon">↗</div><p class="step-number">03</p><h3>Make something</h3><p>Message, hire and manage the details in one simple, friendly workspace.</p></article>
+        </div>
+      </section>
+
+      <section class="discover-section" id="creators">
+        <div class="section-header"><div><p class="section-kicker">MEET THE COMMUNITY</p><h2>Fresh minds. <em>Wild ideas.</em></h2></div><button class="outline-button" data-toast="Creator directory coming right up">Explore all creators <span>→</span></button></div>
+        <div class="creator-grid">
+          <article class="portfolio-card portfolio-one" data-toast="Opening Jin's portfolio"><div class="card-art art-jin"><span>THE<br />LAST<br />GARDEN</span><i></i></div><div class="portfolio-details"><div class="avatar avatar-jin">JK</div><div><h3>Jin Kwon</h3><p>Image maker · Seoul</p></div><button>↗</button></div></article>
+          <article class="portfolio-card portfolio-two" data-toast="Opening Nia's portfolio"><div class="card-art art-nia"><span>WAVE<br />FORM</span><div class="wave-lines"></div></div><div class="portfolio-details"><div class="avatar avatar-nia">NO</div><div><h3>Nia Okafor</h3><p>Motion designer · London</p></div><button>↗</button></div></article>
+          <article class="portfolio-card portfolio-three" data-toast="Opening Rafael's portfolio"><div class="card-art art-rafael"><span>DESERT<br />MEMORY</span><div class="mountains"></div><i></i></div><div class="portfolio-details"><div class="avatar avatar-rafael">RM</div><div><h3>Rafael Mendes</h3><p>3D artist · Lisbon</p></div><button>↗</button></div></article>
+        </div>
+      </section>
+
+      <section class="brief-section">
+        <div class="brief-glow"></div>
+        <div class="brief-copy"><p class="section-kicker light-kicker">HAVE A PROJECT IN MIND?</p><h2>Bring us your<br /><em>biggest maybe.</em></h2><p>Post a brief in minutes. We’ll introduce you to the people who can turn it into a yes.</p><button class="light-button" data-open-modal="signup">Start a brief <span>→</span></button></div>
+        <div class="brief-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>New project brief</span></div>
+          <div class="window-body"><p class="form-label">WHAT ARE YOU MAKING?</p><div class="fake-input">A launch film that feels like a dream...</div><p class="form-label">CREATIVE DIRECTION</p><div class="tag-row"><button class="selected">Surreal</button><button>Playful</button><button>Future-facing</button></div><p class="form-label">LOOKING FOR</p><div class="fake-select">AI filmmaker <span>⌄</span></div><div class="match-result"><div class="match-ring"><span>96%</span></div><div><small>YOUR TOP MATCH</small><strong>Amara Silva</strong><p>AI filmmaker · 5 years exp.</p></div><div class="match-avatar">AS</div></div></div>
+        </div>
+      </section>
+
+      <section class="for-everyone-section">
+        <div class="quote-mark">“</div><h2>A place for anyone<br />with an idea <em>worth making.</em></h2><div class="audience-grid"><article><span>01</span><h3>For brands</h3><p>Find talent that moves culture, not just product.</p><button data-open-modal="signup">I’m a brand →</button></article><article><span>02</span><h3>For agencies</h3><p>Build a trusted bench of fresh creative voices.</p><button data-open-modal="signup">I’m an agency →</button></article><article><span>03</span><h3>For creators</h3><p>Show your work. Meet people who value it.</p><button data-open-modal="signup">I’m a creator →</button></article></div>
+      </section>
+
+      <footer><a class="logo" href="#home">Muse<span class="logo-dot">.</span></a><p>Made for the people shaping what’s next.</p><div><a href="#how-it-works">How it works</a><a href="#creators">Creators</a><button data-open-modal="login">Log in</button></div></footer>
+    </main>
+
+    <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+      <section class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <div class="modal-mark">✦</div>
+        <p class="modal-eyebrow">WELCOME TO MUSE</p><h2 id="modalTitle">Welcome back.</h2><p class="modal-subtitle" id="modalSubtitle">Log in and make your next great collaboration.</p>
+        <form id="authForm"><label id="nameField">Your name<input type="text" name="name" placeholder="How should we call you?" /></label><label>Email address<input type="email" name="email" placeholder="you@example.com" required /></label><label>Password<input type="password" name="password" placeholder="At least 8 characters" required minlength="8" /></label><div class="role-options" id="roleOptions"><button type="button" class="role-option active" data-role="Brand">I’m a brand</button><button type="button" class="role-option" data-role="Agency">I’m an agency</button><button type="button" class="role-option" data-role="Creator">I’m a creator</button></div><button class="auth-submit primary-button" type="submit"><span id="submitText">Log in</span><span>→</span></button></form>
+        <p class="modal-switch" id="modalSwitch">New here? <button data-switch-auth="signup">Create an account</button></p>
+      </section>
+      <section class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="videoTitle"><button class="modal-close" data-close-modal aria-label="Close">×</button><div class="video-illus"><span>▶</span></div><p class="modal-eyebrow">MUSE IN 60 SECONDS</p><h2 id="videoTitle">The right human<br /><em>changes everything.</em></h2><p>Share your brief, meet a creative match and make your next project happen.</p></section>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
